@@ -14,7 +14,7 @@ public class CarShop {
     }
 
     public boolean addCar(Car car) {
-        if (car.getPrice() < maxPrice) {
+        if (car.getPrice() <= maxPrice) {
             carList.add(car);
             return true;
         }
@@ -46,9 +46,9 @@ public class CarShop {
                 carBrandList.add(cl);
             }
         }
-
         return carBrandList;
     }
+
 
     public String getCarShopName() {
         return carShopName;
@@ -58,7 +58,7 @@ public class CarShop {
         return maxPrice;
     }
 
-    public List<Car> getCarList() {
+    public List<Car> getCarsForSell() {
         return carList;
     }
 }
