@@ -1,4 +1,5 @@
-Vizsgafeladat
+**Vizsgafeladat**
+
 A feladatok megoldásához az IDEA fejlesztőeszközt használd! Bármely
 régebbi osztályt megnyithatsz.
 Új repository-ba dolgozz! Ezen könyvtár tartalmát nyugodtan át lehet
@@ -24,7 +25,8 @@ A commit időpontja alapján fogjuk ellenőrizni a megoldásod. Ha nincs
 commitod az idő lejárta előtt, akkor sajnos nem tudjuk értékelni a
 megoldásod!
 
-Szövegmanipuláció (10 pont)
+**Szövegmanipuláció (10 pont)**
+
 Készíts egy stringmanipulation.StringManipulation nevű osztályt.
 Legyen benne egy String everyEvenCharacter(String s) nevű metódus,
 ami visszaadja a paraméterül kapott String objektum minden páros
@@ -34,7 +36,8 @@ Példa:
 input: "This is a String"
 output: "Ti saSrn"
 
-Játék számokkal (15 pont)
+**Játék számokkal (15 pont)**
+
 Tökéletes számnak nevezzük azokat a természetes számokat, amelyek
 megegyeznek az önmaguknál kisebb osztóik összegével.
 (Forrás: Wikipédia) Készits egy numbers.PerfectNumbers osztályt,
@@ -44,7 +47,8 @@ eldönti egy számról, hogy tökéletes szám-e.
 Például: A 6 tökéletes szám mert a nála kisebb osztóinak összege
 1+2+3=6
 
-Autókereskedés (20 + 30 pont)
+**Autókereskedés (20 + 30 pont)**
+
 1. rész
    Készítsd el a cars.Car osztályt. Minden autónak van egy márkája (szöveg), egy motormérete (lebegőpontos szám), egy színe (felsorolásos típus, a következő felsorolókkal: RED,BLACK,BLUE,GREY) és egy ára (egész szám).
 
