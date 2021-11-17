@@ -32,7 +32,7 @@ public class CarShop {
     public int numberOfCarsCheaperThan(int price) {
         int counter = 0;
         for (Car cl: carList) {
-            if (cl.getPrice() < price) {
+            if (cl.getPrice() <= price) {
                 counter++;
             }
         }
